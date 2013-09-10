@@ -3,13 +3,13 @@
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.phonegap.Mobile"
+        id        = "com.phonegap.Browser"
         version   = "1.0.0">
 
-    <name>University</name>
+    <name>Facebook</name>
 
     <description>
-        Mobile APP
+        Browser
     </description>
 
     <author href="http://phonegap.com" email="jeiny_figueroa21@hotmail.com">
@@ -55,17 +55,21 @@
     -->
  <gap:plugin name="com.phonegap.plugins.childbrowser"/>
   
- <gap:plugin name="com.phonegap.plugins.childbrowser" version="4.2.1"/>
+  <gap:plugin name="com.phonegap.plugins.childbrowser" version="4.2.1"/>
+ 
+ 
+  <gap:plugin name="com.phonegap.plugins.facebookconnect">
+  
+    <param name="APP_ID" value="192984710879210"/>
+	
+    <param name="APP_NAME" value="Probar"/>
+	
+</gap:plugin>
+
+
  
  <!-- Plugin De Faceboock--> 
 
-  <gap:plugin name="com.phonegap.plugins.facebookconnect">
-  
-    <param name="APP_ID" value="155392544656734"/>
-	
-    <param name="APP_NAME" value="Conectar"/>
-	
-</gap:plugin>
 
 
 
